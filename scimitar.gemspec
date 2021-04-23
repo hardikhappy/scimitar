@@ -16,9 +16,9 @@ Gem::Specification.new do |s|
   s.homepage    = 'https://ripglobal.com/'
   s.metadata    = { "source_code_uri" => "https://github.com/RIPGlobal/scimitar" }
 
-  s.required_ruby_version = '>= 2.7.2'
+  s.required_ruby_version = '>= 2.4.0'
 
-  s.add_dependency 'rails',    '>= 6.0'
+  s.add_dependency 'rails',    '>= 5.0.7'
   s.add_dependency 'nokogiri', '~> 1.11'
 
   s.add_development_dependency 'rake',           '~> 13.0'
